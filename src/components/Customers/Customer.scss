@@ -1,0 +1,49 @@
+.customer-reviews {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 100px;
+  
+    h2 {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 1.5rem;
+    }
+  
+    .reviews-container {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+  
+    .review-card {
+      background: #f9f9f9;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 1.5rem;
+      max-width: 300px;
+      text-align: left;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+      .stars {
+        color: #fbb034; // Gold color for stars
+        margin-bottom: 0.5rem;
+  
+        span {
+          font-size: 1.2rem;
+        }
+      }
+  
+      h3 {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+      }
+  
+      p {
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #555;
+      }
+    }
+  }
