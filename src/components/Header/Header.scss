@@ -1,1 +1,52 @@
+ .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+ }
  
+ 
+ 
+ .dropdown{
+     display: flex;
+     align-items: center;
+     position: relative;
+     gap: 5px;
+     padding: 5px;
+
+     &:hover {
+        div{
+       opacity: 1;
+       visibility: visible;
+        }
+
+        img{
+            rotate: 180deg;
+        }
+     }
+    img{
+        width: 12px;
+        transition: 0.4s;
+    }
+
+    div{
+        top: 25px;
+        right: 0;
+        position: absolute;
+        background-color: #f0f0f0;
+        padding: 6px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+ opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+
+        a{
+            border-bottom: 1px solid  gray;
+            padding: 4px;
+            font-size: 18px;
+        }
+    }
+ }

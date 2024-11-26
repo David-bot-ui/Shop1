@@ -8,7 +8,9 @@ const Category = () => {
      <>
      <section className="category">
         <div className="container">
+         <div id='arrivals'>
             <SectionTitle position='center'>NEW ARRIVALS</SectionTitle>
+         </div>
             
      <div className="category__wrapper">
         <Card image={'/Card-1.png'} name='T-SHIRT WITH TAPE DETAILS' rate='4.5' price='120' stars="⭐⭐⭐⭐"/>
@@ -20,8 +22,10 @@ const Category = () => {
      <Btn>View All</Btn>
      <hr style={{margin: '60px 0'}} />
      
-     
-            <SectionTitle position='center'>top selling</SectionTitle>
+     <div id='selling'>
+            <SectionTitle   position='center'>top selling</SectionTitle>
+
+     </div>
             
      <div className="category__wrapper">
         <Card image={'/Card-5.png'} name='VERTICAL STRIPED SHIRT ' rate='5' price='120' stars="⭐⭐⭐⭐⭐"/>
