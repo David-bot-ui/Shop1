@@ -1,4 +1,14 @@
-.salewarap__wrap{
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+.salewrap__wrap{
     background-color: #f0f0f0;
     padding: 25px;
     border-radius: 20px;
@@ -12,7 +22,7 @@
 }
 
 
-.salewarap__card{
+.salewrap__card{
 flex-grow: 1;
 padding: 30px;
 background-repeat: no-repeat;
@@ -39,5 +49,123 @@ flex-grow: 2;
 }
 &:nth-child(4){
     background-image: url(/Sale-4.png);
+}
+}
+
+
+
+.app {
+    width: 90%;
+    margin: 40px auto;
+    padding: 80px;
+  
+ 
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 40px;
+    white-space: nowrap;
+  }
+  
+  
+  .conainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   }
+  .reviews {
+    display: grid;
+    grid-template-columns:  repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 25px;
+    flex-wrap: wrap;
+
+
+    @media(max-width: 700px){
+      grid-template-columns: 1fr;
+     
+    }
+
+ 
+
+.review-card {
+    width: 600px;
+    height: 240px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  @media(max-width: 700px){
+    width: 350px;
+   
+  }
+}
+
+.rating {
+  color: #ffc107;
+  font-size: 18px;
+}
+
+h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.date {
+  font-size: 14px;
+  color: #777;
+}
+
+.review {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.load-btn{
+  display: block;
+  margin: 20px auto;
+  padding: 15px 10px;
+  background-color: white;
+  color: black;
+  border: 1px solid gray;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+
+.load-more:hover {
+  background-color: #0056b3;
+}
+  }
+  
+    
+
+
+.elements{
+  display: flex;
+  align-items: center;
+ justify-content: space-around;
+ gap: 400px;
+ 
+ 
+}
+
+.elements__btn{
+color: #fff;
+background-color: black;
+border-radius: 15px;
+padding: 15px 15px;
+border: none;
+margin-bottom: 30px;
+
+@media(max-width: 700px){
+  display: none;
 }
 }

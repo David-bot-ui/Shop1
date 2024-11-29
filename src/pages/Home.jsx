@@ -3,7 +3,7 @@ import Hero from '../components/Hero/Hero'
 import Category from '../components/Category/Category'
 import Browse from '../components/Browse/Browse'
 import Customer from '../components/Customers/Customer'
-import SaleWrap from '../components/SaleWrap/SaleWrap'
+
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
    <Category/>
 <Browse/>
 <Customer/>
-<SaleWrap/>
+ 
    
    </>
   )
