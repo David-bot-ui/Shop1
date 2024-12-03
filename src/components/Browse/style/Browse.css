@@ -1,0 +1,120 @@
+.browse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.browse__container {
+  border-radius: 40px;
+  padding: 40px;
+  background-color: #F0F0F0;
+}
+.browse__container h1 {
+  font-size: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.browse__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+@media (max-width: 700px) {
+  .browse__wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+.part1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 20px;
+}
+
+.part2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 20px;
+}
+
+.div1 {
+  background-image: url("/white.png");
+  width: 407px;
+  height: 289px;
+  border-radius: 20px;
+  background-color: white;
+  text-align: left;
+}
+.div1 h3 {
+  font-size: 30px;
+  padding: 10px 30px;
+}
+
+.div2 {
+  background-image: url("/costume.png");
+  width: 684px;
+  height: 289px;
+  border-radius: 20px;
+  background-color: white;
+}
+.div2 h3 {
+  font-size: 30px;
+  padding: 10px 30px;
+}
+
+.div3 {
+  background-image: url("/women.png");
+  width: 684px;
+  height: 289px;
+  border-radius: 20px;
+  background-color: white;
+}
+.div3 h3 {
+  font-size: 30px;
+  padding: 10px 30px;
+}
+
+.div4 {
+  background-image: url("/gym.png");
+  width: 407px;
+  height: 289px;
+  border-radius: 20px;
+  background-color: white;
+}
+.div4 h3 {
+  font-size: 30px;
+  padding: 10px 30px;
+}

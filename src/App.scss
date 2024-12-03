@@ -1,9 +1,40 @@
-h1{
-    text-align: center;
-    
-}
+ 
 
 
 html {
     scroll-behavior: smooth;
+}
+
+.login-title{
+    text-align: center;
+    margin: 25px 0;
+}
+
+.container{
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 10px;
+  max-width: 400px;
+
+
+  input{
+    padding: 10px;
+  }
+
+  button{
+    padding: 10px;
+  }
+
+  a{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+  }
 }

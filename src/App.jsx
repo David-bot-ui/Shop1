@@ -5,6 +5,8 @@ import Home from './pages/Home'
 import Header from './components/Header/Header'
 import Sale from './pages/Sale'
 import SinglePage from './pages/SinglePage'
+import LoginPage from './pages/LoginPage'
+import SignupPage from './pages/SignupPage'
 const App = () => {
   return (
      <>
@@ -13,6 +15,8 @@ const App = () => {
       <Route path= '/' element={<Home/>}/>
       <Route path= '/sale' element={<Sale/>}/>
       <Route path='/product/:id' element={<SinglePage/>}/>
+   <Route path='/signup' element={<SignupPage/>} />
+   <Route path='/login' element={<LoginPage/>} />
 
      </Routes>
      

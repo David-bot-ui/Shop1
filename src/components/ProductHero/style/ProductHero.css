@@ -1,0 +1,29 @@
+.product__wrap {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+@media (max-width: 800px) {
+  .product__wrap {
+    grid-template-columns: 1fr;
+  }
+}
+
+.product__images img {
+  width: 100%;
+}
+
+.product__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+}
+
+.product__price s {
+  font-size: 24px;
+  color: gray;
+}
