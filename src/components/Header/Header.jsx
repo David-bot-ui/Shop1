@@ -16,7 +16,7 @@ const Header = () => {
             <div className='header__wrapper'>
               <div className="header__wrap">
               <div className="header__header">
-              <Link to={'/'}><img className='logo__img' src="/SHOP-CO.png" alt="" /></Link>
+              <Link to={'/'}><img className='logo__img' src="/shop.png" alt="" /></Link>
                 <div className={`header__menu ${isActive ? 'active' : ''}`}>
                     <Link to={'/sale'} className='dropdown' >
                     Shop
@@ -48,7 +48,9 @@ const Header = () => {
                     <img src="/search-icon.svg" alt="" />
                    <p>Search for products...</p>
                    </div>
+                   <Link to={'/basket'}>
                   <img src="/icon-1.svg" alt="" />
+                   </Link>
 
                {isAuth ? (
                 <div>
@@ -68,6 +70,7 @@ const Header = () => {
             </div>
         </div>
     </header>
+
     </>
   )
 }
