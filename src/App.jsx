@@ -8,6 +8,7 @@ import SinglePage from './pages/SinglePage'
 import LoginPage from './pages/LoginPage'
 import SignupPage from './pages/SignupPage'
 import Basket from './components/Basket/Basket'
+import CatalogPage from './pages/CatalogPage'
 const App = () => {
   return (
      <>
@@ -19,6 +20,7 @@ const App = () => {
    <Route path='/signup' element={<SignupPage/>} />
    <Route path='/login' element={<LoginPage/>} />
    <Route path='/basket'element={<Basket/>}/>
+   <Route path='/catalog'element={<CatalogPage/> }/>
 
      </Routes>
      
